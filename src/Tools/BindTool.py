@@ -3,7 +3,6 @@ from langchain_core.messages import HumanMessage
 from langchain_core.tools import tool
 from langchain_huggingface import HuggingFaceEndpoint, ChatHuggingFace
 
-HF_TOKEN = "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"
 model_repo_id = "meta-llama/Meta-Llama-3-8B-Instruct"
 
 llm = HuggingFaceEndpoint(
