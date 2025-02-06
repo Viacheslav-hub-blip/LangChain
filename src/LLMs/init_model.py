@@ -17,7 +17,6 @@ from langchain_huggingface import HuggingFaceEndpoint, HuggingFacePipeline
 from langchain_huggingface import ChatHuggingFace
 
 # пример использования модели с HuggingFace
-huggingface_token = "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"
 model_repo_id = "meta-llama/Meta-Llama-3-8B-Instruct"
 
 """

@@ -14,7 +14,6 @@ from langchain_huggingface import ChatHuggingFace
 from langchain_huggingface.embeddings import HuggingFaceEndpointEmbeddings
 import os
 
-huggingface_token = "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"
 model_repo_id = "meta-llama/Meta-Llama-3-8B-Instruct"
 
 llm = HuggingFaceEndpoint(

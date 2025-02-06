@@ -18,7 +18,7 @@ from langchain.schema.runnable import RunnableParallel, RunnableLambda
 from langchain_huggingface import HuggingFaceEndpoint
 from langchain_huggingface import ChatHuggingFace
 
-huggingface_token = "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"
+
 model_repo_id = "meta-llama/Meta-Llama-3-8B-Instruct"
 
 llm = HuggingFaceEndpoint(
